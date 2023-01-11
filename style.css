@@ -54,10 +54,16 @@ a {
 
 .populaire{
     background-color: #d9d9d9;
+    border-radius: 20px;
+}
+
+.populaire{
+    background-color: #f0f0f0;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-around;
+    border-radius: 20px;
 }
 
 footer{
