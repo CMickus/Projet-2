@@ -9,38 +9,44 @@
 </head>
 <body>
     <header>
-        <!--I'm thinking of using three "span" tags here one for the logo and the two links one fore the nav bar ( so a nav tag instead of a span tag) and one last for the buttons-->
-        <!-- Ask where should I use the 2nd anb bigger logo-->
-        <img src="images/logo/Booki.png" alt="logo">
-        <a href="#hebergement">Hébergement</a>
-        <a href="#activite">Activités</a>
-        <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-        <h3>En plein centre-ville ou en pleine nature</h3>
+        <section>
+            <!-- Ask where should I use the 2nd anb bigger logo-->
+            <img src="images/logo/Booki.png" alt="logo">
+            <a href="#hebergement">Hébergement</a>
+            <a href="#activite">Activités</a>
+        </section>
+        <section>
+            <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+            <h3>En plein centre-ville ou en pleine nature</h3>
+        </section>
         <!--I could also separate the nav from the logo and the two links and put the nav tag outside of the header tag see what's best-->
         <nav>
-            <!--I'll have to change and put the forms and button in their respective tags-->
-            <!--The icon is purely decorative so I'll create it with CSS -->
-            <form action="" method="get">
-                <i aria-hidden="true"></i>
-                <input type="text" placeholder="Marseille, France">
-                <button>Rechercher</button>
-            </form>
-            <h2>Filtres</h2>
-            <ul>
-                <li>                    
-                    <button><i></i>Économique</button>
-                </li>
-                <li>
-                    <button><i></i>Famillial</button>                    
-                </li>
-                <li>
-                    <button><i></i>Romantique</button>                    
-                </li>
-                <li>
-                    <button><i></i>Animaux autorisés</button>
-                    
-                </li>
-            </ul>
+            <section>
+                <!--The icon is purely decorative so I'll create it with CSS -->
+                <form action="" method="get">
+                    <i aria-hidden="true"></i>
+                    <input type="text" placeholder="Marseille, France">
+                    <button>Rechercher</button>
+                </form>
+            </section>
+            <section>
+                <h2>Filtres</h2>
+                <ul>
+                    <li>                    
+                        <button><i></i>Économique</button>
+                    </li>
+                    <li>
+                        <button><i></i>Famillial</button>                    
+                    </li>
+                    <li>
+                        <button><i></i>Romantique</button>                    
+                    </li>
+                    <li>
+                        <button><i></i>Animaux autorisés</button>
+                        
+                    </li>
+                </ul>
+            </section>
         </nav>
     </header>
     <main>
