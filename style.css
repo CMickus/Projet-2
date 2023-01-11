@@ -52,6 +52,10 @@ a {
     border-radius: 20px;
 }
 
+.imagelocation{
+    border-radius: 20px 20px 0px 0px;
+}
+
 .populaire{
     background-color: #d9d9d9;
     border-radius: 20px;
