@@ -10,3 +10,14 @@ ul {
 a {
     text-decoration: none;
 }
+
+.button_filters {
+    display:flex;
+    flex-direction: row;
+}
+
+.filters{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
