@@ -3,6 +3,10 @@
     max-width: 1400px;
 }
 
+body{
+    background-color: #f0f2f6;
+}
+
 ul {
     list-style-type: none;
 }
@@ -23,5 +27,9 @@ a {
 }
 
 .locations{
+    background-color: #d9d9d9;
+}
+
+.populaire{
     background-color: #d9d9d9;
 }
