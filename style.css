@@ -5,6 +5,11 @@
 
 body{
     background-color: #f0f2f6;
+    max-width: 1400px;
+}
+
+main{
+    max-width: 100%;
 }
 
 ul {
@@ -29,12 +34,22 @@ a {
 .hebergement{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .locations{
     background-color: #d9d9d9;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .populaire{
     background-color: #d9d9d9;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
