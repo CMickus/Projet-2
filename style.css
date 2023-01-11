@@ -26,6 +26,11 @@ a {
     align-items: center;
 }
 
+.hebergement{
+    display: flex;
+    flex-direction: row;
+}
+
 .locations{
     background-color: #d9d9d9;
 }
