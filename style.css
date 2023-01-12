@@ -21,6 +21,11 @@ a {
     color: #000000;
 }
 
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
 .button_filters {
     display:flex;
     flex-direction: row;
