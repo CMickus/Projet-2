@@ -133,6 +133,12 @@ a {
 .activite{
     width: 302px;
     height: 444px;
+    border-radius: 20px;
+}
+
+.imageactivite{
+    width: 302px;
+    height: 388px;
 }
 
 footer{
