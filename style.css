@@ -130,6 +130,12 @@ a {
     height: 144px;
 }
 
+.activites{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
 .activite{
     width: 302px;
     height: 444px;
