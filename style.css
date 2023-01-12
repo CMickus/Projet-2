@@ -43,6 +43,12 @@ a {
     border-top: solid 2px;
 }
 
+.researchbutton{
+    color: #ffffff;
+    background-color: #0065fc;
+    border-radius: 0px 15px 15px 0px;
+}
+
 .filters{
     display: flex;
     flex-direction: row;
