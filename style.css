@@ -107,6 +107,10 @@ a {
 .populaires{
     background-color: #d9d9d9;
     border-radius: 20px;
+    width: 420px;
+    height: 625px;
+    display: flex;
+    flex-direction: column;
 }
 
 .populaire{
@@ -116,10 +120,14 @@ a {
     flex-wrap: wrap;
     justify-content: space-around;
     border-radius: 20px;
+    width: 343px;
+    height: 144px;
 }
 
 .imagepopulaire{
     border-radius: 20px 0px 0px 20px;
+    width: 137px;
+    height: 144px;
 }
 
 footer{
