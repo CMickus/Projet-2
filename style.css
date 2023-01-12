@@ -83,16 +83,23 @@ a {
     width: 880px;
     height: 626px;
     display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.bloclocation{
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: space-around;
 }
 
 .location{
     background-color: #f0f0f0;
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-around;
+    flex-direction: column;
     border-radius: 20px;
     width: 246px;
     height: 199px;
