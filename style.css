@@ -89,6 +89,8 @@ a {
     flex-wrap: wrap;
     justify-content: space-around;
     border-radius: 20px;
+    width: 880px;
+    height: 626px;
 }
 
 .imagelocation{
