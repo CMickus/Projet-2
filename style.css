@@ -26,6 +26,12 @@ a {
     flex-direction: row;
 }
 
+.filtre{
+    border: solid 2px;
+    border-color: #d9d9d9;
+    border-radius: 25px;
+}
+
 .navigationbutton:hover{
     color: #0065fc;
     border-top-color: #0065fc;
