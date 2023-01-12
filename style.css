@@ -132,7 +132,14 @@ a {
 
 .activites{
     display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.blocactivite{
+    display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-around;
 }
 
