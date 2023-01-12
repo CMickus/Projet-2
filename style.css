@@ -130,6 +130,11 @@ a {
     height: 144px;
 }
 
+.activite{
+    width: 302px;
+    height: 444px;
+}
+
 footer{
     display: flex;
     flex-direction: row;
