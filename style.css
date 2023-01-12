@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    box-sizing: border-box;
     max-width: 1400px;
 }
 
@@ -53,7 +54,7 @@ a {
 
 .navigationbutton:hover{
     color: #0065fc;
-    border-top-color: #0065fc;
+    border-color: #0065fc;
     border-top: solid 2px;
 }
 
@@ -92,6 +93,8 @@ a {
 
 .imagelocation{
     border-radius: 20px 20px 0px 0px;
+    width: 246px;
+    height: 124px;
 }
 
 .populaires{
