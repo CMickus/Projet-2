@@ -9,6 +9,7 @@ body{
     max-width: 1400px;
     padding: 45px 50px 0px 50px;
     font-family: 'Manrope', sans-serif;
+    font-weight: 400;
 }
 
 main{
@@ -25,8 +26,16 @@ h3{
     font-weight: 700;
 }
 
+h4{
+    font-size: 16px;
+    font-weight: 700;
+}
+
 ul {
     list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 a {
@@ -184,4 +193,6 @@ footer{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    background-color: #d9d9d9;
+    justify-self: center;
 }
