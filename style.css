@@ -20,6 +20,11 @@ h2{
     font-weight: 700;
 }
 
+h3{
+    font-size: 18px;
+    font-weight: 700;
+}
+
 ul {
     list-style-type: none;
 }
