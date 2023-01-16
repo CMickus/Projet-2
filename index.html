@@ -9,31 +9,33 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet">
     <style> @import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap'); </style>
-    <title>Document</title>
+    <!--rajouter une favicon-->
+    <title>Bookie</title>
 </head>
-<body>
-    <header>
+<body> 
         <nav class="navbar">
             <img src="images/logo/Booki.png" alt="logo du site">
-            <nav class="navigationbuttonbloc">
+            <div class="navigationbuttonbloc">
                 <a href="#hebergement" class="navigationbutton">Hébergement</a>
                 <a href="#activite" class="navigationbutton">Activités</a>
-            </nav>
+            </div>
         </nav>
         <section class="info_titre">
             <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
             <p>En plein centre-ville ou en pleine nature</p>
         </section>
-        <nav>
-            <nav class="button_search">
+    <header>
+        <div>
+            <div class="button_search">
                 <form action="#" method="get">
                     <i aria-hidden="true"></i>
                     <label for="rechercher" class="hidden">Quelle est votre recherche?</label>
                     <input type="text" name="rechercher" id="rechercher" placeholder="Marseille, France">
                     <button class="researchbutton">Rechercher</button>
                 </form>
-            </nav>
-            <nav class="button_filters">
+            </div>
+            <!-- filtres hors de la nav-->
+            <div class="button_filters">
                 <h3>Filtres</h3>
                 <ul class="filters">
                     <li>                    
@@ -61,8 +63,8 @@
                         </button>                        
                     </li>
                 </ul>
-            </nav>
-        </nav>
+            </div>
+        </div>
     </header>
     <main>
         <!--I putted the small text in the main as it concerns the main part of the website even though it is a result of the research-->
@@ -73,7 +75,7 @@
         <section class="hebergement" id="hebergement">
             <article class="locations">
                 <h2>Hébergement à Marseille</h2>
-                <!--I'll put every bloc into a link-->
+                <!--rename pictures-->
                 <!--Every picture is medium size with hover the user will be able to clearly see how the place looks like this way without having too big pictures-->
                 <div class="bloclocation">
                     <a href="#" class="location">
