@@ -95,7 +95,7 @@ a {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     height: 75vh;
 }
 
@@ -169,12 +169,12 @@ a {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     height: 90%;
 }
 
 .activite{
-    width: 20%;
+    width: 23%;
     border-radius: 20px;
 }
 
