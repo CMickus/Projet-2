@@ -96,13 +96,13 @@ a {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
+    height: 75vh;
 }
 
 .locations{
     background-color: #d9d9d9;
     border-radius: 20px;
-    width: 880px;
-    height: 626px;
+    width: 65%;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -121,22 +121,21 @@ a {
     display: flex;
     flex-direction: column;
     border-radius: 20px;
-    width: 246px;
-    height: 199px;
+    width: 25%;
+    height: 40%;
     margin: 15px;
 }
 
 .imagelocation{
     border-radius: 20px 20px 0px 0px;
-    width: 246px;
-    height: 124px;
+    width: 100%;
+    height: 60%;
 }
 
 .populaires{
     background-color: #d9d9d9;
     border-radius: 20px;
-    width: 420px;
-    height: 625px;
+    width: 30%;
     display: flex;
     flex-direction: column;
 }
@@ -148,20 +147,22 @@ a {
     flex-wrap: wrap;
     justify-content: space-around;
     border-radius: 20px;
-    width: 343px;
-    height: 144px;
+    width: 90%;
+    height: 25%;
+    margin: 15px;
 }
 
 .imagepopulaire{
     border-radius: 20px 0px 0px 20px;
-    width: 137px;
-    height: 144px;
+    width: 35%;
+    height: 100%;
 }
 
 .activites{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    height: 75vh;
 }
 
 .blocactivite{
@@ -169,22 +170,23 @@ a {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
+    height: 90%;
 }
 
 .activite{
-    width: 302px;
-    height: 444px;
+    width: 20%;
     border-radius: 20px;
 }
 
 .imageactivite{
-    width: 302px;
-    height: 388px;
+    width: 100%;
+    height: 75%;
+    object-fit: cover;
     border-radius: 20px 20px 0px 0px;
 }
 
 .activitetitre{
-    width: 302px;
+    width: 100%;
     border-radius: 0px 0px 20px 20px;
     box-shadow: 5px 5px 5px 5px grey;
 }
