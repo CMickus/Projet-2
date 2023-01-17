@@ -103,6 +103,16 @@ i{
     height: 75vh;
 }
 
+.star{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.greystar{
+    color:#d9d9d9;
+}
+
 .locations{
     background-color: #d9d9d9;
     border-radius: 20px;
