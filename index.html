@@ -32,14 +32,15 @@
     <header>
         <div>
             <div class="button_search">
-                <form action="#" method="get">
-                    <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+                <form action="#" method="get" class="searchform">
+                    <div class="searchicon">
+                        <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+                    </div>
                     <label for="rechercher" class="hidden">Quelle est votre recherche?</label>
-                    <input type="text" name="rechercher" id="rechercher" placeholder="Marseille, France">
+                    <input type="text" name="rechercher" id="rechercher" placeholder="Marseille, France" class="researchinput">
                     <button class="researchbutton">Rechercher</button>
                 </form>
             </div>
-            <!-- filtres hors de la nav-->
             <div class="button_filters">
                 <h3>Filtres</h3>
                 <ul class="filters">
@@ -72,16 +73,11 @@
         </div>
     </header>
     <main>
-        <!--I putted the small text in the main as it concerns the main part of the website even though it is a result of the research-->
-        <!--I used a simple p tag as it is supposed tu be a representation of the website for the real website intercations will be necessary-->
         <i class="fa-thin fa-circle-info" aria-hidden="true"></i>
         <p>Plus de 500 logements sont disponible dans cette ville</p>
-        <!-- I use only two section instead of three: Hébergement à Marseille" and "Les plus populaires" refer both to accommodation -->
         <section class="hebergement" id="hebergement">
             <article class="locations">
                 <h2>Hébergement à Marseille</h2>
-                <!--rename pictures-->
-                <!--Every picture is medium size with hover the user will be able to clearly see how the place looks like this way without having too big pictures-->
                 <div class="bloclocation">
                     <a href="#" class="location">
                         <img src="images/hebergements/la_canebiere.jpg" alt="" class="imagelocation">
