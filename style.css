@@ -319,4 +319,15 @@ footer{
     flex-wrap: wrap;
     background-color: #d9d9d9;
     justify-self: center;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 10%;
+    height: 30vh;
+    padding: 5%;
+}
+
+.listefooter{
+    height: 100%;
+    display: flex;
+    line-height: 2em;
 }
