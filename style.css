@@ -152,6 +152,22 @@ nav{
     align-items: center;
 }
 
+.populairedeuxiemebloc{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 90%;
+    width: 65%;
+    overflow-wrap: break-word;
+}
+
+.locationdeuxiemebloc{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 30%;
+}
+
 .hebergement{
     display: flex;
     flex-direction: row;
@@ -167,9 +183,6 @@ nav{
 }
 
 .star{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
     margin-left: 5%;
 }
 
@@ -181,6 +194,7 @@ nav{
     background-color: #d9d9d9;
     border-radius: 20px;
     width: 65%;
+    height: 75vh;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -200,7 +214,7 @@ nav{
     flex-direction: column;
     border-radius: 20px;
     width: 25%;
-    height: 40%;
+    height: 35%;
     margin: 15px;
 }
 
@@ -216,8 +230,10 @@ nav{
     background-color: #d9d9d9;
     border-radius: 20px;
     width: 30%;
+    height: 75vh;
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
 }
 
 .populaire{
@@ -228,7 +244,7 @@ nav{
     justify-content: space-around;
     border-radius: 20px;
     width: 90%;
-    height: 25%;
+    height: 23%;
     margin: 15px;
 }
 
