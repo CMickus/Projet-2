@@ -166,6 +166,7 @@ nav{
     flex-direction: column;
     justify-content: space-between;
     height: 30%;
+    overflow-wrap: break-word;
 }
 
 .hebergement{
