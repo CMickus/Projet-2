@@ -158,7 +158,7 @@ nav{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     height: 70vh;
 }
 
@@ -298,6 +298,9 @@ nav{
 .activite{
     width: 23%;
     border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
 }
 
 .imageactivite{
@@ -309,6 +312,10 @@ nav{
 
 .activitetitre{
     width: 100%;
+    height: 7%;
+    padding-left: 2%;
+    display: flex;
+    align-items: center;
     border-radius: 0px 0px 20px 20px;
     box-shadow: 5px 5px 5px 5px #d9d9d9;
 }
