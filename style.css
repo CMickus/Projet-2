@@ -465,4 +465,43 @@ footer{
         width: 100%;
         margin: 5%;
     }
+
+    .hebergement{
+        flex-direction: column-reverse;
+        justify-content: flex-start;
+        height: auto;
+    }
+
+    .locations{
+        /* Ajout d'un overflow en attendant une autre soluction*/
+        flex-direction: column;
+        width: 100%;
+        background-color: #f0f2f6;
+        border-radius: 0;
+        height: auto;
+        gap: 1%;
+        overflow: auto;
+    }
+
+    .bloclocation{
+        gap: 3%;
+        height: auto;
+    }
+
+    .location{
+        width: 95%;
+        height: 40vh;
+        box-shadow: 5px 5px 5px 5px #d9d9d9;    
+    }
+
+    .populaires{
+        width: 100%;
+        border-radius: 0;
+        height: 90vh;
+    }
+
+    .populaire{
+        width: 90%;
+    }
+
 }
