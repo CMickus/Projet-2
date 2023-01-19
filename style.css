@@ -93,8 +93,8 @@ nav{
 }
 
 .button_search{
-    height: 5vh;
-    width: 15vw;
+    height: 7vh;
+    width: 20vw;
     row-gap: 0px;
     margin-top: 2%;
     margin-bottom: 2%;
@@ -427,6 +427,6 @@ footer{
     }
 
     .info_titre{
-        
+
     }
 }
