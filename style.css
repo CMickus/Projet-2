@@ -284,6 +284,14 @@ nav{
     padding: 3%;
 }
 
+.titrepopulaire{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2%;
+}
+
 .blocpopulaire{
     display: flex;
     flex-direction: column;
