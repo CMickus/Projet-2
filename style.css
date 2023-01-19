@@ -67,22 +67,6 @@ nav{
     width: 20%;
 }
 
-.button_filters {
-    display:flex;
-    flex-direction: row;
-}
-
-.filtre{
-    background-color: #f0f2f6;
-    border: solid 2px;
-    border-color: #d9d9d9;
-    border-radius: 25px;
-}
-
-.filtre:hover{
-    background-color: #deebff;
-}
-
 .navigationbutton{
     height: 100%;
     width: 50%;
@@ -102,10 +86,18 @@ nav{
     display: none;
 }
 
+.info_titre{
+    margin-top: 2%;
+    margin-bottom: 2%;
+
+}
+
 .button_search{
     height: 5vh;
     width: 15vw;
     row-gap: 0px;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 
 .searchform{
@@ -146,13 +138,60 @@ nav{
     color: #000000;
 }
 
+.button_filters {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
 .filters{
     display: flex;
     flex-direction: row;
     align-items: center;
+    width: 100%;
+    gap: 3%;
 }
 
+.filtre{
+    background-color: #f0f2f6;
+    border: solid 2px;
+    border-color: #d9d9d9;
+    border-radius: 25px;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding: 10%;
+    max-block-size: min-content;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
 
+.filtre:hover{
+    background-color: #deebff;
+}
+
+.infonblogement{
+    display: flex;
+    flex-direction: row;
+    gap: 1%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.infoicon{
+    border: #d9d9d9 solid;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
 
 .hebergement{
     display: flex;
@@ -182,8 +221,6 @@ nav{
 .greystar{
     color:#d9d9d9;
 }
-
-/* Changer de flex à grid l'affichage des bloc locations et populaire*/
 
 .titrelocation{
     display: flex;
