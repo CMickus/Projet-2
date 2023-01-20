@@ -393,7 +393,7 @@ footer{
     line-height: 2em;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     body{
         padding: 0;
         width: 100vw;
@@ -469,23 +469,23 @@ footer{
     .hebergement{
         flex-direction: column-reverse;
         justify-content: flex-start;
-        height: auto;
+        height: 390vh;
     }
 
     .locations{
         /* Ajout d'un overflow en attendant une autre soluction*/
         flex-direction: column;
+        flex-wrap: nowrap;
         width: 100%;
         background-color: #f0f2f6;
         border-radius: 0;
-        height: fit-content;
+        height: 300vh;
         gap: 1%;
-        overflow: auto;
     }
 
     .bloclocation{
         gap: 3%;
-        height: auto;
+        height: fit-content;
     }
 
     .location{
@@ -502,6 +502,11 @@ footer{
 
     .populaire{
         width: 90%;
+    }
+
+    .lienpourresultatsupplementaire{
+        height: 5vh;
+        justify-self: flex-end;
     }
 
     .activites{
@@ -541,5 +546,35 @@ footer{
     .listefooter{
         display: flex;
         flex-direction: column;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width: 991px) {
+    body{
+       width: 100vw;
+    }
+    
+    .button_search{
+        width: 50%;
+    }
+
+    .heberegement{
+        height: 200vh;
+    }
+
+    .locations{
+        width: 100%;
+    }
+
+    .populaires{
+        width: 100%;
+    }
+
+    .blocpopulaire{
+        flex-direction: row;
+    }
+
+    .activites{
+        height: 50vh;
     }
 }
