@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,80 +9,74 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet">
-    <style> @import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap'); </style>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+    </style>
     <link rel="icon" type="image/png" href="images/logo/imgfav.png">
-    <title>Bookie</title>
+    <title>Booki</title>
 </head>
-<body> 
-        <nav>
-            <img src="images/logo/Booki.png" alt="logo du site" class="logo">
-            <div class="navigationbuttonbloc">
-                <div class="navigationbutton">
-                    <a href="#hebergement">Hébergement</a>
+
+<body>
+    <nav>
+        <img src="images/logo/Booki.png" alt="logo du site" class="logo">
+        <div class="navigationbuttonbloc">
+            <div class="navigationbutton">
+                <a href="#hebergement">Hébergement</a>
+            </div>
+            <div class="navigationbutton">
+                <a href="#activite">Activités</a>
+            </div>
+        </div>
+    </nav>
+    <header class="info_titre">
+        <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
+        <p>En plein centre-ville ou en pleine nature</p>
+        <div class="button_search">
+            <form action="#" method="get" class="searchform">
+                <div class="searchicon">
+                    <i class="fa-solid fa-location-dot searchiconitself" aria-hidden="true"></i>
                 </div>
-                <div class="navigationbutton">
-                    <a href="#activite">Activités</a>
-                </div>
-            </div>
-        </nav>
-        <section class="info_titre">
-            <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
-            <p>En plein centre-ville ou en pleine nature</p>
-        </section>
-    <header>
-        <div>
-            <div class="button_search">
-                <form action="#" method="get" class="searchform">
-                    <div class="searchicon">
-                        <i class="fa-solid fa-location-dot searchiconitself" aria-hidden="true"></i>
-                    </div>
-                    <label for="rechercher" class="hidden">Quelle est votre recherche?</label>
-                    <input type="text" name="rechercher" id="rechercher" placeholder="Marseille, France" class="researchinput">
-                    <button class="researchbutton">Rechercher</button>
-                </form>
-            </div>
-            <div class="button_filters">
-                <h3>Filtres</h3>
-                <ul class="filters">
-                    <li>                    
-                        <button class="filtre">
-                            <i class="fa-solid fa-money-bill-wave" aria-hidden="true"></i>
-                            Économique
-                        </button>
-                    </li>
-                    <li>
-                        <button class="filtre">
-                            <i class="fa-solid fa-person" aria-hidden="true"></i>
-                            Famillial
-                        </button>                    
-                    </li>
-                    <li>
-                        <button class="filtre">
-                            <i class="fa-solid fa-heart" aria-hidden="true"></i>
-                            Romantique
-                        </button>                    
-                    </li>
-                    <li>
-                        <button class="filtre">
-                            <i class="fa-solid fa-dog" aria-hidden="true"></i>
-                            Animaux autorisés
-                        </button>                        
-                    </li>
-                </ul>
-            </div>
+                <label for="rechercher" class="hidden">Quelle est votre recherche?</label>
+                <input type="text" name="rechercher" id="rechercher" placeholder="Marseille, France"
+                    class="researchinput">
+                <button class="researchbutton">Rechercher</button>
+            </form>
         </div>
     </header>
+    <section class="button_filters">
+        <h3>Filtres</h3>
+        <div class="filters">
+
+            <button class="filtre">
+                <i class="fa-solid fa-money-bill-wave" aria-hidden="true"></i>
+                Économique
+            </button>
+
+            <button class="filtre">
+                <i class="fa-solid fa-person" aria-hidden="true"></i>
+                Famillial
+            </button>
+
+            <button class="filtre">
+                <i class="fa-solid fa-heart" aria-hidden="true"></i>
+                Romantique
+            </button>
+
+            <button class="filtre">
+                <i class="fa-solid fa-dog" aria-hidden="true"></i>
+                Animaux autorisés
+            </button>
+        </div>
+    </section>
     <main>
         <div class="infonblogement">
-            <i class="fa-solid fa-info infoicon" aria-hidden="true"></i>        
+            <i class="fa-solid fa-info infoicon" aria-hidden="true"></i>
             <p>Plus de 500 logements sont disponible dans cette ville</p>
         </div>
-        <section class="hebergement" id="hebergement">
+        <div class="hebergement" id="hebergement">
             <article class="locations">
-                <div class="titrelocation">
-                    <h2>Hébergement à Marseille</h2>
-                </div>
+                <h2 class="titrelocation">Hébergement à Marseille</h2>
                 <div class="bloclocation">
                     <a href="#" class="location">
                         <img src="images/hebergements/la_canebiere.jpg" alt="" class="imagelocation">
@@ -180,7 +175,9 @@
                         </div>
                     </a>
                 </div>
-                <a href="#" class="lienpourresultatsupplementaire"><h3>Afficher plus</h3></a>
+                <a href="#" class="lienpourresultatsupplementaire">
+                    <h3>Afficher plus</h3>
+                </a>
             </article>
             <article class="populaires">
                 <div class="titrepopulaire">
@@ -240,7 +237,7 @@
                     </a>
                 </div>
             </article>
-        </section>
+        </div>
         <section class="activites" id="activite">
             <div class="titreactivite">
                 <h2>Activités à Marseille</h2>
@@ -276,7 +273,9 @@
     <footer>
         <div class="listefooter">
             <ul>
-                <li><h3>À propos</h3></li>
+                <li>
+                    <h3>À propos</h3>
+                </li>
                 <li>Fonctionnement du site</li>
                 <li>Conditions générales</li>
                 <li>Données et confidentialité</li>
@@ -284,18 +283,23 @@
         </div>
         <div class="listefooter">
             <ul>
-                <li><h3>Nos hébergements</h3></li>
+                <li>
+                    <h3>Nos hébergements</h3>
+                </li>
                 <li>Charte de qualité</li>
                 <li>Proposer votre hôtel</li>
             </ul>
         </div>
         <div class="listefooter">
             <ul>
-                <li><h3>Assistance</h3></li>
+                <li>
+                    <h3>Assistance</h3>
+                </li>
                 <li>Centre d'aide</li>
                 <li>Nous contacter</li>
             </ul>
         </div>
     </footer>
 </body>
+
 </html>
