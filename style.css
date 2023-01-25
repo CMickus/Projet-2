@@ -4,7 +4,7 @@
     max-width: 1400px;
 }
 
-body{
+body {
     background-color: #f0f2f6;
     max-width: 1400px;
     padding: 0px 50px 0px 50px;
@@ -12,21 +12,21 @@ body{
     font-weight: 400;
 }
 
-main{
+main {
     max-width: 100%;
 }
 
-h2{
+h2 {
     font-size: 1.3em;
     font-weight: 1000;
 }
 
-h3{
+h3 {
     font-size: 1.1em;
     font-weight: 900;
 }
 
-h4{
+h4 {
     font-size: 1em;
     font-weight: 700;
 }
@@ -43,23 +43,19 @@ a {
     color: #000000;
 }
 
-i{
-    color: #0065fc;
-}
-
-.logo{
+.logo {
     height: 40%;
     width: auto;
 }
 
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 10vh;
 }
 
-.navigationbuttonbloc{
+.navigationbuttonbloc {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -67,7 +63,7 @@ nav{
     width: 20%;
 }
 
-.navigationbutton{
+.navigationbutton {
     height: 100%;
     width: 50%;
     display: flex;
@@ -75,24 +71,24 @@ nav{
     align-items: center;
 }
 
-.navigationbutton:hover{
+.navigationbutton:hover {
     color: #0065fc;
     border-color: #0065fc;
     border-top: solid 2px;
     box-sizing: border-box;
 }
 
-.hidden{
+.hidden {
     display: none;
 }
 
-.info_titre{
+.info_titre {
     margin-top: 2%;
     margin-bottom: 2%;
 
 }
 
-.searchform{
+.searchform {
     height: 7vh;
     width: 20vw;
     row-gap: 0px;
@@ -105,7 +101,7 @@ nav{
     align-items: center;
 }
 
-.searchicon{
+.searchicon {
     background-color: #d9d9d9;
     border-radius: 15px 0px 0px 15px;
     height: 70%;
@@ -115,14 +111,20 @@ nav{
     align-items: center;
 }
 
-.researchinput{
+.researchinput {
     height: 70%;
     width: 53%;
     border: 1px solid #F2F2F2;
     color: #000000;
 }
 
-.researchbutton{
+.researchinput::placeholder {
+    font-weight: 700;
+    opacity: 1;
+    font-size: 1.1em;
+}
+
+.researchbutton {
     color: #ffffff;
     background-color: #0065fc;
     border-radius: 0px 15px 15px 0px;
@@ -131,23 +133,20 @@ nav{
     border: 1px solid;
 }
 
-.searchiconitself{
-    color: #000000;
-}
 
 .button_filters {
-    display:flex;
+    display: flex;
     align-items: center;
     gap: 1%;
 }
 
-.filters{
+.filters {
     display: flex;
     width: 100%;
     gap: 3%;
 }
 
-.filtre{
+.filtre {
     display: flex;
     align-items: center;
     background-color: #f0f2f6;
@@ -156,14 +155,18 @@ nav{
     border-radius: 25px;
     font-size: 1.1em;
     font-weight: 500;
-    padding: 1em;   
+    padding: 1em;
 }
 
-.filtre:hover{
+.filtre:hover {
     background-color: #deebff;
 }
 
-.infonblogement{
+.filtreicon {
+    color: #0065fc;
+}
+
+.infonblogement {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -172,7 +175,7 @@ nav{
     margin-bottom: 2%;
 }
 
-.infoicon{
+.infoicon {
     border: #d9d9d9 solid;
     height: 25px;
     width: 25px;
@@ -182,7 +185,7 @@ nav{
     align-content: center;
 }
 
-.hebergement{
+.hebergement {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -190,7 +193,7 @@ nav{
     height: 70vh;
 }
 
-.locationdeuxiemebloc{
+.locationdeuxiemebloc {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -198,20 +201,20 @@ nav{
     overflow-wrap: break-word;
 }
 
-.textehebergement{
+.textehebergement {
     margin-left: 5%;
     overflow-wrap: anywhere;
 }
 
-.star{
+.star {
     margin-left: 5%;
 }
 
-.greystar{
-    color:#d9d9d9;
+.greystar {
+    color: #d9d9d9;
 }
 
-.titrelocation{
+.titrelocation {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -219,7 +222,7 @@ nav{
     height: 10%;
 }
 
-.locations{
+.locations {
     background-color: #d9d9d9;
     border-radius: 20px;
     width: 66%;
@@ -233,7 +236,7 @@ nav{
     padding-right: 2%;
 }
 
-.bloclocation{
+.bloclocation {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -241,7 +244,7 @@ nav{
     height: 80%;
 }
 
-.location{
+.location {
     background-color: #f0f0f0;
     display: flex;
     flex-direction: column;
@@ -250,7 +253,7 @@ nav{
     height: 40%;
 }
 
-.imagelocation{
+.imagelocation {
     border-radius: 20px 20px 0px 0px;
     width: 96%;
     height: 60%;
@@ -258,12 +261,12 @@ nav{
     margin: 2%;
 }
 
-.lienpourresultatsupplementaire{
+.lienpourresultatsupplementaire {
     display: flex;
     height: 10%;
 }
 
-.populaires{
+.populaires {
     background-color: #d9d9d9;
     border-radius: 20px;
     width: 31%;
@@ -275,7 +278,7 @@ nav{
     padding-right: 2%;
 }
 
-.titrepopulaire{
+.titrepopulaire {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -284,14 +287,14 @@ nav{
     margin-bottom: 2%;
 }
 
-.blocpopulaire{
+.blocpopulaire {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     height: 80%;
 }
 
-.populaire{
+.populaire {
     background-color: #f0f0f0;
     display: flex;
     flex-direction: column;
@@ -300,16 +303,18 @@ nav{
     border-radius: 20px;
     width: 90%;
     height: 30%;
+    padding-right: 3%;
 }
 
-.imagepopulaire{
+.imagepopulaire {
     border-radius: 20px 0px 0px 20px;
     width: 35%;
     height: 100%;
     object-fit: cover;
+    margin: 1.5%;
 }
 
-.populairedeuxiemebloc{
+.populairedeuxiemebloc {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -318,13 +323,13 @@ nav{
     overflow-wrap: break-word;
 }
 
-.titreactivite{
+.titreactivite {
     height: 10%;
     display: flex;
     align-items: center;
 }
 
-.activites{
+.activites {
     margin-top: 2%;
     display: flex;
     flex-direction: column;
@@ -332,7 +337,7 @@ nav{
     height: 75vh;
 }
 
-.blocactivite{
+.blocactivite {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -340,7 +345,7 @@ nav{
     height: 90%;
 }
 
-.activite{
+.activite {
     width: 23%;
     border-radius: 20px;
     display: flex;
@@ -348,14 +353,14 @@ nav{
     gap: 0;
 }
 
-.imageactivite{
+.imageactivite {
     width: 100%;
     height: 75%;
     object-fit: cover;
     border-radius: 20px 20px 0px 0px;
 }
 
-.activitetitre{
+.activitetitre {
     width: 100%;
     height: 7%;
     padding-left: 2%;
@@ -365,7 +370,7 @@ nav{
     box-shadow: 5px 5px 5px 5px #d9d9d9;
 }
 
-footer{
+footer {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -378,52 +383,54 @@ footer{
     padding: 5%;
 }
 
-.listefooter{
+.listefooter {
     height: 100%;
     display: flex;
     line-height: 2em;
 }
+
 /* check le sheiht si elles sont necessaire*/
 @media screen and (max-width: 767px) {
-    body{
+    body {
         padding: 0;
         width: 100vw;
     }
 
-    nav{
+    nav {
         flex-direction: column;
-        height: 30vh;      
+        height: 30vh;
     }
 
-    .logo{
+    .logo {
         padding-top: 8%;
-        width:30%;
+        width: 30%;
         height: auto;
     }
 
-    .navigationbuttonbloc{
+    .navigationbuttonbloc {
         height: 50%;
         width: 100%;
         flex-direction: row;
         justify-content: space-between;
     }
-    .navigationbutton{
+
+    .navigationbutton {
         height: 100%;
         width: 50%;
     }
 
-    .navigationbutton:hover{
+    .navigationbutton:hover {
         border-top: 0;
         border-bottom: solid 2px;
     }
 
-    .info_titre{
+    .info_titre {
         padding-left: 2.5%;
         margin-top: 5%;
         margin-bottom: 5%;
     }
 
-    .button_search{
+    .button_search {
         height: 12vh;
         width: 95vw;
         padding-left: 2.5%;
@@ -431,7 +438,7 @@ footer{
         margin-bottom: 5%;
     }
 
-    .button_filters{
+    .button_filters {
         /* for now no display until i find a solution*/
         display: none;
         flex-direction: column;
@@ -440,30 +447,30 @@ footer{
         width: 100vw;
     }
 
-    .filters{
+    .filters {
         height: 90%;
         width: 100%;
         justify-content: space-evenly;
     }
 
-    .filtre{
+    .filtre {
         width: 45%;
         height: 45%;
 
     }
 
-    .infonblogement{
+    .infonblogement {
         width: 100%;
         margin: 5%;
     }
 
-    .hebergement{
+    .hebergement {
         flex-direction: column-reverse;
         justify-content: flex-start;
         height: 390vh;
     }
 
-    .locations{
+    .locations {
         /* Ajout d'un overflow en attendant une autre soluction*/
         flex-direction: column;
         flex-wrap: nowrap;
@@ -474,98 +481,98 @@ footer{
         gap: 1%;
     }
 
-    .bloclocation{
+    .bloclocation {
         gap: 3%;
         height: fit-content;
     }
 
-    .location{
+    .location {
         width: 95%;
         height: 40vh;
-        box-shadow: 5px 5px 5px 5px #d9d9d9;    
+        box-shadow: 5px 5px 5px 5px #d9d9d9;
     }
 
-    .populaires{
+    .populaires {
         width: 100%;
         border-radius: 0;
         height: 90vh;
     }
 
-    .populaire{
+    .populaire {
         width: 90%;
     }
 
-    .lienpourresultatsupplementaire{
+    .lienpourresultatsupplementaire {
         height: 5vh;
         justify-self: flex-end;
     }
 
-    .activites{
+    .activites {
         height: fit-content;
         width: 100vw;
     }
 
-    .blocactivites{
+    .blocactivites {
         flex-direction: column;
         align-items: center;
         justify-content: center;
         width: 100%;
     }
 
-    .activite{
+    .activite {
         width: 90%;
         height: 40vh;
         margin-top: 1%;
         margin-bottom: 1%;
     }
 
-    .imageactivite{
+    .imageactivite {
         height: 66%;
     }
 
-    .activitetitre{
+    .activitetitre {
         height: 33%;
     }
 
-    .footer{
+    .footer {
         flex-direction: column;
         height: fit-content;
         width: 100vw;
         overflow: auto;
     }
-    
-    .listefooter{
+
+    .listefooter {
         display: flex;
         flex-direction: column;
     }
 }
 
 @media screen and (min-width:768px) and (max-width: 991px) {
-    body{
-       width: 100vw;
+    body {
+        width: 100vw;
     }
-    
-    .button_search{
+
+    .button_search {
         width: 50%;
     }
 
-    .heberegement{
+    .heberegement {
         height: 200vh;
     }
 
-    .locations{
+    .locations {
         width: 100%;
     }
 
-    .populaires{
+    .populaires {
         width: 100%;
     }
 
-    .blocpopulaire{
+    .blocpopulaire {
         flex-direction: row;
     }
 
-    .activites{
+    .activites {
         height: 50vh;
     }
 }
