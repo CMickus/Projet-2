@@ -40,7 +40,6 @@ ul {
 
 a {
     text-decoration: none;
-    color: #000000;
 }
 
 .logo {
@@ -71,11 +70,21 @@ nav {
     align-items: center;
 }
 
+
+
 .navigationbutton:hover {
     color: #0065fc;
     border-color: #0065fc;
     border-top: solid 2px;
     box-sizing: border-box;
+}
+
+.navbuttonlink{
+    color: #000000;
+}
+
+.navbuttonlink:hover{
+    color: #0065fc;
 }
 
 .hidden {
@@ -137,6 +146,7 @@ nav {
 .button_filters {
     display: flex;
     align-items: center;
+    width: 100%;
     gap: 1%;
 }
 
@@ -208,6 +218,7 @@ nav {
 
 .star {
     margin-left: 5%;
+    color: #0065fc;
 }
 
 .greystar {
@@ -251,6 +262,7 @@ nav {
     border-radius: 20px;
     width: 30%;
     height: 40%;
+    color: #000000;
 }
 
 .imagelocation {
@@ -264,6 +276,7 @@ nav {
 .lienpourresultatsupplementaire {
     display: flex;
     height: 10%;
+    color: #000000;
 }
 
 .populaires {
@@ -304,6 +317,7 @@ nav {
     width: 90%;
     height: 30%;
     padding-right: 3%;
+    color: #000000;
 }
 
 .imagepopulaire {
@@ -351,6 +365,7 @@ nav {
     display: flex;
     flex-direction: column;
     gap: 0;
+    color: #000000;
 }
 
 .imageactivite {
