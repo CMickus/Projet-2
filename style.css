@@ -18,12 +18,12 @@ main{
 
 h2{
     font-size: 1.3em;
-    font-weight: 700;
+    font-weight: 1000;
 }
 
 h3{
     font-size: 1.1em;
-    font-weight: 700;
+    font-weight: 900;
 }
 
 h4{
@@ -92,21 +92,17 @@ nav{
 
 }
 
-.button_search{
+.searchform{
     height: 7vh;
     width: 20vw;
     row-gap: 0px;
     margin-top: 2%;
     margin-bottom: 2%;
-}
-
-.searchform{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: flex-start;
     align-items: center;
-    height: 100%;
 }
 
 .searchicon{
@@ -142,21 +138,17 @@ nav{
 .button_filters {
     display:flex;
     align-items: center;
+    gap: 1%;
 }
 
 .filters{
     display: flex;
-    /*flex-direction: row;
-    align-items: center;*/
     width: 100%;
     gap: 3%;
 }
 
 .filtre{
     display: flex;
-    /*flex-direction: row;
-    flex-wrap: nowrap;*/
-    /*justify-content: center;*/
     align-items: center;
     background-color: #f0f2f6;
     border: solid 2px;
@@ -231,7 +223,8 @@ nav{
     background-color: #d9d9d9;
     border-radius: 20px;
     width: 66%;
-    height: 100%;
+    /*
+    height: 100%;*/
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
