@@ -99,7 +99,7 @@ nav {
 
 .searchform {
     height: 7vh;
-    width: 20vw;
+    width: 30%;
     row-gap: 0px;
     margin-top: 2%;
     margin-bottom: 2%;
@@ -125,6 +125,7 @@ nav {
     width: 53%;
     border: 1px solid #F2F2F2;
     color: #000000;
+    padding-left: 3%;
 }
 
 .researchinput::placeholder {
@@ -146,13 +147,13 @@ nav {
 .button_filters {
     display: flex;
     align-items: center;
-    width: 100%;
+    /*width: 100%;*/
     gap: 1%;
 }
 
 .filters {
     display: flex;
-    width: 100%;
+    /*width: 100%;*/
     gap: 3%;
 }
 
@@ -165,7 +166,7 @@ nav {
     border-radius: 25px;
     font-size: 1.1em;
     font-weight: 500;
-    padding: 1em;
+    padding: 0.5em;
 }
 
 .filtre:hover {
@@ -174,7 +175,7 @@ nav {
 
 .filtreicon {
     color: #0065fc;
-    margin-right: 10%;
+    margin-right: 5%;
 }
 
 .filtretext{
@@ -420,7 +421,7 @@ footer {
 @media screen and (max-width: 767px) {
     body {
         padding: 0;
-        width: 100vw;
+        width: 100%;
     }
 
     nav {
@@ -435,20 +436,21 @@ footer {
     }
 
     .navigationbuttonbloc {
-        height: 50%;
         width: 100%;
         flex-direction: row;
         justify-content: space-between;
     }
 
+    /*
     .navigationbutton {
-        height: 100%;
         width: 50%;
     }
+    */
 
     .navigationbutton:hover {
         border-top: 0;
         border-bottom: solid 2px;
+        border-color: #0065fc;
     }
 
     .info_titre {
@@ -457,9 +459,9 @@ footer {
         margin-bottom: 5%;
     }
 
-    .button_search {
-        height: 12vh;
-        width: 95vw;
+    .searchform {
+        height: 8vh;
+        width: 90vw;
         padding-left: 2.5%;
         margin-top: 5%;
         margin-bottom: 5%;
@@ -467,23 +469,27 @@ footer {
 
     .button_filters {
         /* for now no display until i find a solution*/
-        display: none;
+        display: flex;
         flex-direction: column;
         align-items: flex-start;
-        height: 30vh;
+        height: 20vh;
         width: 100vw;
+
     }
 
     .filters {
         height: 90%;
         width: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
         justify-content: space-evenly;
     }
 
+    
     .filtre {
         width: 45%;
         height: 45%;
-
+        padding: 0;
     }
 
     .infonblogement {
