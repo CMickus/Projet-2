@@ -12,6 +12,10 @@ body {
     font-weight: 400;
 }
 
+a:visited{
+    
+}
+
 main {
     max-width: 100%;
 }
@@ -39,6 +43,7 @@ ul {
 }
 
 a {
+    color: #000000;
     text-decoration: none;
 }
 
@@ -62,7 +67,7 @@ nav {
     width: 20%;
 }
 
-.navigationbutton {
+.navbutton {
     height: 100%;
     width: 50%;
     display: flex;
@@ -71,21 +76,14 @@ nav {
 }
 
 
-
-.navigationbutton:hover {
+.navbutton:hover {
     color: #0065fc;
     border-color: #0065fc;
     border-top: solid 2px;
     box-sizing: border-box;
 }
 
-.navbuttonlink{
-    color: #000000;
-}
 
-.navbuttonlink:hover{
-    color: #0065fc;
-}
 
 .hidden {
     display: none;
@@ -153,7 +151,6 @@ nav {
 
 .filters {
     display: flex;
-    /*width: 100%;*/
     gap: 3%;
 }
 
@@ -167,6 +164,7 @@ nav {
     font-size: 1.1em;
     font-weight: 500;
     padding: 0.5em;
+    box-sizing: content-box;
 }
 
 .filtre:hover {
@@ -445,16 +443,11 @@ footer {
         justify-content: space-between;
     }
 
-    /*
-    .navigationbutton {
-        width: 50%;
-    }
-    */
-
-    .navigationbutton:hover {
+    .navbutton:hover {
         border-top: 0;
         border-bottom: solid 2px;
         border-color: #0065fc;
+        color: #0065fc;
     }
 
     .info_titre {
@@ -465,14 +458,13 @@ footer {
 
     .searchform {
         height: 8vh;
-        width: 90vw;
+        width: 90%;
         padding-left: 2.5%;
         margin-top: 5%;
         margin-bottom: 5%;
     }
 
     .button_filters {
-        /* for now no display until i find a solution*/
         display: flex;
         flex-direction: column;
         align-items: flex-start;
@@ -492,8 +484,13 @@ footer {
     
     .filtre {
         width: 45%;
-        height: 45%;
+        height: 40%;
         padding: 0;
+    }
+
+    .filtretext{
+        white-space: nowrap;
+        margin-left: 1%;
     }
 
     .infonombrelogement {
@@ -540,25 +537,22 @@ footer {
     .populaires {
         width: 100%;
         border-radius: 0;
-        height: 90vh;
+        height: 75vh;
     }
 
     .populaire {
-        width: 90%;
+        width: 99%;
     }
 
-    
-
     .activites {
-        height: fit-content;
-        width: 100vw;
+        justify-content: center;
     }
 
     .blocactivites {
         flex-direction: column;
-        align-items: center;
+        align-content: center;
         justify-content: center;
-        width: 100%;
+        width: 95%;
     }
 
     .activite {
