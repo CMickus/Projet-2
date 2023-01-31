@@ -4,7 +4,6 @@
     max-width: 1400px;
 }
 
-/*suppriemr tous les vh*/
 
 body {
     background-color: #f0f2f6;
@@ -80,8 +79,6 @@ nav {
     border-top: solid 2px;
 }
 
-
-
 .hidden {
     display: none;
 }
@@ -142,13 +139,12 @@ nav {
 .button_filters {
     display: flex;
     align-items: center;
-    /*width: 100%;*/
-    gap: 1%;
+    gap: 4%;
 }
 
 .filters {
     display: flex;
-    gap: 3%;
+    gap: 5%;
 }
 
 .filtre {
@@ -161,7 +157,9 @@ nav {
     font-size: 1.1em;
     font-weight: 500;
     padding: 0.5em;
-    padding-right: 1.5em;
+    padding-right: 2em;
+    padding-left: 1em;
+    gap: 5%;
     box-sizing: content-box;
 }
 
