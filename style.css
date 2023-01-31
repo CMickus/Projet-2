@@ -4,16 +4,14 @@
     max-width: 1400px;
 }
 
+/*suppriemr tous les vh*/
+
 body {
     background-color: #f0f2f6;
     max-width: 1400px;
     padding: 0px 50px 0px 50px;
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
-}
-
-a:visited{
-    
 }
 
 main {
@@ -44,11 +42,11 @@ ul {
 
 a {
     color: #000000;
-    text-decoration: none;
+    text-decoration: none ;
 }
 
 .logo {
-    height: 40%;
+    height: 35%;
     width: auto;
 }
 
@@ -56,7 +54,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 10vh;
+    height: 100px;
 }
 
 .navigationbuttonbloc {
@@ -80,7 +78,6 @@ nav {
     color: #0065fc;
     border-color: #0065fc;
     border-top: solid 2px;
-    box-sizing: border-box;
 }
 
 
@@ -164,6 +161,7 @@ nav {
     font-size: 1.1em;
     font-weight: 500;
     padding: 0.5em;
+    padding-right: 1.5em;
     box-sizing: content-box;
 }
 
@@ -204,9 +202,7 @@ nav {
 .hebergement {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     justify-content: space-between;
-    height: 70vh;
 }
 
 .locationdeuxiemebloc {
@@ -404,7 +400,6 @@ footer {
     flex-direction: row;
     justify-content: flex-start;
     gap: 10%;
-    height: 30vh;
     padding: 5%;
 }
 
@@ -505,7 +500,6 @@ footer {
     }
 
     .locations {
-        /* Ajout d'un overflow en attendant une autre soluction*/
         flex-direction: column;
         flex-wrap: nowrap;
         width: 100%;
