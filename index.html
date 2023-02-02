@@ -20,25 +20,27 @@
 <body>
     <nav>
         <img src="images/logo/Booki.png" alt="logo du site" class="logo">
-        <div class="navigationbuttonbloc">            
-                <a href="#hebergement" class="navbutton">Hébergement</a>
-                <a href="#activite" class="navbutton">Activités</a>
+        <div class="navigationbuttonbloc">
+            <a href="#hebergement" class="navbutton">Hébergement</a>
+            <a href="#activite" class="navbutton">Activités</a>
         </div>
     </nav>
     <header class="info_titre">
-        <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
-        <p>En plein centre-ville ou en pleine nature</p>
+        <div >
+            <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
+            <p class="headertext">En plein centre-ville ou en pleine nature</p>
+        </div>
         <form action="#" method="get" class="searchform">
             <i class="fa-solid fa-location-dot searchicon" aria-hidden="true"></i>
             <label for="rechercher" class="hidden">Quelle est votre recherche?</label>
             <input type="text" name="rechercher" id="rechercher" placeholder="Marseille, France" class="researchinput">
             <button class="researchbutton">Rechercher</button>
+            <button class="researchicon"><i class="fa-solid fa-magnifying-glass"></i></button>
         </form>
     </header>
     <section class="button_filters">
         <h3>Filtres</h3>
         <div class="filters">
-            <!-- mettre un aria label aux icones -->
             <button class="filtre">
                 <i class="fa-solid fa-money-bill-wave filtreicon" aria-hidden="true" aria-label="icône de billet"></i>
                 <span class="filtretext">Économique</span>

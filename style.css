@@ -6,7 +6,7 @@
 
 
 body {
-    background-color: #f0f2f6;
+    background-color: white;
     max-width: 1400px;
     padding: 0px 50px 0px 50px;
     font-family: 'Raleway', sans-serif;
@@ -37,7 +37,7 @@ ul {
 
 a {
     color: #000000;
-    text-decoration: none ;
+    text-decoration: none;
 }
 
 .logo {
@@ -120,6 +120,11 @@ nav {
     border: 1px solid;
 }
 
+.researchicon {
+    display: none;
+}
+
+
 
 .button_filters {
     display: flex;
@@ -155,7 +160,7 @@ nav {
     margin-right: 5%;
 }
 
-.filtretext{
+.filtretext {
     white-space: nowrap;
 }
 
@@ -265,7 +270,7 @@ nav {
     margin-bottom: 2%;
 }
 
-.icongraphpopulaire{
+.icongraphpopulaire {
     color: #0065fc;
 }
 
@@ -353,11 +358,11 @@ footer {
     line-height: 2em;
 }
 
-.titrelistefooter{
+.titrelistefooter {
     margin-bottom: 8%;
 }
 
-.lienfooter{
+.lienfooter {
     color: #000000;
 }
 
@@ -365,17 +370,17 @@ footer {
 @media screen and (max-width: 767px) {
     body {
         padding: 0;
-        width: 100%;
     }
 
     nav {
         flex-direction: column;
-        height: 30vh;
+        height: 150px;
+
     }
 
     .logo {
-        padding-top: 8%;
-        width: 30%;
+        padding-top: 3%;
+        width: 20%;
         height: auto;
     }
 
@@ -383,27 +388,53 @@ footer {
         width: 100%;
         flex-direction: row;
         justify-content: space-between;
+        align-self: flex-end;
     }
 
-    .navbutton:hover {
+    .navbutton {
+        align-self: flex-end;
         border-top: 0;
-        border-bottom: solid 2px;
+        border-bottom: solid 3px;
         border-color: #0065fc;
         color: #0065fc;
+        padding-bottom: 5%;
     }
 
     .info_titre {
+        padding-left: 5%;
+        padding-right: 5%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    .headertext {
+        margin-top: 2%;
+    }
+
+    .searchform {
+        height: 80px;
+        width: 100%;
         padding-left: 2.5%;
         margin-top: 5%;
         margin-bottom: 5%;
     }
 
-    .searchform {
-        height: 8vh;
-        width: 90%;
-        padding-left: 2.5%;
-        margin-top: 5%;
-        margin-bottom: 5%;
+    .researchbutton {
+        display: none;
+    }
+
+    .researchinput {
+        width: 70%;
+    }
+
+    .researchicon {
+        display: inline;
+        color: #ffffff;
+        background-color: #0065fc;
+        border-radius: 0px 15px 15px 0px;
+        border: 1px solid;
+        height: 70%;
+        width: 20%;
     }
 
     .button_filters {
@@ -423,14 +454,14 @@ footer {
         justify-content: space-evenly;
     }
 
-    
+
     .filtre {
         width: 45%;
         height: 40%;
         padding: 0;
     }
 
-    .filtretext{
+    .filtretext {
         white-space: nowrap;
         margin-left: 1%;
     }
@@ -456,7 +487,7 @@ footer {
         gap: 0;
     }
 
-    .titrelocation{
+    .titrelocation {
         height: 4%;
     }
 
@@ -471,7 +502,7 @@ footer {
         box-shadow: 5px 5px 5px 5px #d9d9d9;
     }
 
-    .lienpourresultatsupplementaire{
+    .lienpourresultatsupplementaire {
         height: 2%;
     }
 
