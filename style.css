@@ -461,7 +461,7 @@ footer {
         padding: 0;
     }
 
-    .filtreicon{
+    .filtreicon {
         margin-right: 2%;
         margin-left: 5%;
 
@@ -522,7 +522,7 @@ footer {
         width: 99%;
     }
 
-    .activites{
+    .activites {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -566,32 +566,33 @@ footer {
 }
 
 @media screen and (min-width:768px) and (max-width: 991px) {
-    body{
+    body {
         width: 100%;
     }
 
-    .logo{
+    .logo {
         height: 20%;
     }
 
-    .navigationbuttonbloc{
+    .navigationbuttonbloc {
         width: 40%;
     }
 
-    .boutonhebergement{
+    .boutonhebergement {
         justify-content: flex-start;
     }
 
-    .boutonactivite{
+    .boutonactivite {
         justify-content: flex-end;
     }
 
-    .button_search {
+    .searchform {
         width: 50%;
     }
 
-    .heberegement {
-        height: 200vh;
+    .hebergement {
+        flex-direction: column;
+        gap: 10px;
     }
 
     .locations {
@@ -606,7 +607,5 @@ footer {
         flex-direction: row;
     }
 
-    .activites {
-        height: 50vh;
-    }
+
 }
