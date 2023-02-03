@@ -69,6 +69,7 @@ nav {
     color: #0065fc;
     border-color: #0065fc;
     border-top: solid 2px;
+    cursor: default;
 }
 
 .hidden {
