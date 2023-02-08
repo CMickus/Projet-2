@@ -1,13 +1,15 @@
 * {
-    margin: 0;
+    margin-top: 0;
+    margin-bottom: 0;
     box-sizing: border-box;
-    max-width: 1400px;
 }
 
 
 body {
     background-color: white;
     max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
     padding: 0px 50px 0px 50px;
     font-family: 'Raleway', sans-serif;
 }
@@ -367,7 +369,6 @@ footer {
     color: #000000;
 }
 
-/* check le sheiht si elles sont necessaire*/
 @media screen and (max-width: 767px) {
     body {
         padding: 0;
@@ -387,18 +388,18 @@ footer {
 
     .navigationbuttonbloc {
         width: 100%;
-        flex-direction: row;
-        justify-content: space-between;
-        align-self: flex-end;
     }
 
     .navbutton {
         align-self: flex-end;
+        padding-bottom: 5%;
+    }
+
+    .navbutton:hover{
+        color: #0065fc;
+        border-color:#0065fc;
         border-top: 0;
         border-bottom: solid 3px;
-        border-color: #0065fc;
-        color: #0065fc;
-        padding-bottom: 5%;
     }
 
     .info_titre {
@@ -485,17 +486,16 @@ footer {
     }
 
     .locations {
-        flex-direction: column;
-        flex-wrap: nowrap;
+        margin-top: 20px;
         width: 100%;
-        background-color: #f0f2f6;
+        background-color: white;
         border-radius: 0;
         height: 1500px;
-        gap: 0;
     }
 
     .titrelocation {
         height: 4%;
+        padding-left: 2%;
     }
 
     .bloclocation {
@@ -510,24 +510,28 @@ footer {
     }
 
     .lienpourresultatsupplementaire {
-        height: 2%;
+        display: none;
     }
 
     .populaires {
         width: 100%;
         border-radius: 0;
         height: 685px;
+        padding-left: 4%;
+        padding-right: 4%;
     }
 
     .populaire {
         width: 99%;
+        height: 32%;
     }
 
     .activites {
         display: flex;
         flex-direction: column;
-        align-items: center;
-        width: 100%;
+        margin-left: 2em;
+        margin-bottom: 20%;
+        margin-top: 20%;
     }
 
     .blocactivite {
@@ -535,21 +539,24 @@ footer {
         flex-direction: column;
         align-content: center;
         justify-content: center;
-        width: 95%;
     }
 
     .activite {
         width: 90%;
-        margin-top: 1%;
-        margin-bottom: 1%;
+        margin-top: 2%;
+        margin-bottom: 2%;
     }
 
     .imageactivite {
-        height: 66%;
+        height: 150px;
+    }
+
+    .titreactivite{
+        white-space: pre;
     }
 
     .activitetitre {
-        height: 33%;
+        height: 50px;
     }
 
     footer {
@@ -557,6 +564,11 @@ footer {
         flex-wrap: wrap;
         flex-direction: column;
         width: 100%;
+        gap: 30px;
+    }
+
+    .titrelistefooter{
+        margin-bottom: 10px;
     }
 
     .listefooter {
