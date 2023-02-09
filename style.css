@@ -594,7 +594,7 @@ footer {
     .navbutton{
         font-size: 0.8em;
     }
-/*
+
     .boutonhebergement {
         justify-content: flex-start;
     }
@@ -602,7 +602,7 @@ footer {
     .boutonactivite {
         justify-content: flex-end;
     }
-*/
+
     .button_filters{
         gap: 2%;
     }
