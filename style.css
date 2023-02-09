@@ -595,14 +595,6 @@ footer {
         font-size: 0.8em;
     }
 
-    .boutonhebergement {
-        justify-content: flex-start;
-    }
-
-    .boutonactivite {
-        justify-content: flex-end;
-    }
-
     .button_filters{
         gap: 2%;
     }
@@ -631,6 +623,20 @@ footer {
 
     .locations {
         width: 100%;
+        padding-top: 4%;
+        padding-bottom: 4%;
+    }
+
+    .titrelocation{
+        margin-bottom: 2%;
+    }
+
+    .bloclocation{
+        height: 490px;
+    }
+
+    .location{
+        height: 200px;
     }
 
     .populaires {
