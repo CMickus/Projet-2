@@ -393,13 +393,13 @@ footer {
     .navbutton {
         align-self: flex-end;
         padding-bottom: 5%;
+        border-bottom: #d9d9d9 solid 3px;
     }
 
     .navbutton:hover{
         color: #0065fc;
         border-color:#0065fc;
         border-top: 0;
-        border-bottom: solid 3px;
     }
 
     .info_titre {
@@ -588,15 +588,36 @@ footer {
     }
 
     .navigationbuttonbloc {
-        width: 40%;
+        width: 30%;
     }
 
+    .navbutton{
+        font-size: 0.8em;
+    }
+/*
     .boutonhebergement {
         justify-content: flex-start;
     }
 
     .boutonactivite {
         justify-content: flex-end;
+    }
+*/
+    .button_filters{
+        gap: 2%;
+    }
+
+    .filters{
+        gap: 2%;
+    }
+
+    .titrefiltre{
+        font-size: 1em;
+    }
+
+    .filtre{
+        font-size: 0.95em;
+        font-weight: bold;
     }
 
     .searchform {
