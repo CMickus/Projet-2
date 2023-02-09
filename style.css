@@ -641,11 +641,23 @@ footer {
 
     .populaires {
         width: 100%;
+        padding-top: 4%;
+        padding-bottom: 4%;
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+    
+    .titrepopulaire{
+        margin-bottom: 3%;
     }
 
     .blocpopulaire {
         flex-direction: row;
     }
 
+    .populaire{
+        height: 145px;
+        width: 32%;
+    }
 
 }
