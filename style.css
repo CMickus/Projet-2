@@ -241,6 +241,7 @@ nav {
     border-radius: 20px;
     width: 30%;
     height: 40%;
+    box-shadow: 5px 5px 5px 5px #c7c7c7;
 }
 
 .imagelocation {
@@ -292,8 +293,9 @@ nav {
     border-radius: 20px;
     width: 90%;
     height: 30%;
-    padding-right: 3%;
+    padding: 1.5%;
     color: #000000;
+    box-shadow: 5px 5px 5px 5px #c7c7c7;
 }
 
 .imagepopulaire {
@@ -301,14 +303,13 @@ nav {
     width: 35%;
     height: 100%;
     object-fit: cover;
-    margin: 1.5%;
 }
 
 .populairedeuxiemebloc {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 90%;
+    height: 100%;
     width: 65%;
 }
 
@@ -322,17 +323,23 @@ nav {
     justify-content: space-between;
 }
 
+.activites{
+    margin-bottom: 2%;
+}
+
 .activite {
     width: 23%;
+    height: 445px;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
     color: #000000;
+    box-shadow: 5px 5px 5px 5px #c7c7c7;
 }
 
 .imageactivite {
     width: 100%;
-    height: 75%;
+    height: 85%;
     object-fit: cover;
     border-radius: 20px 20px 0px 0px;
 }
@@ -343,7 +350,6 @@ nav {
     display: flex;
     align-items: center;
     border-radius: 0px 0px 20px 20px;
-    box-shadow: 5px 5px 5px 5px #d9d9d9;
 }
 
 footer {
@@ -542,6 +548,7 @@ footer {
     }
 
     .activite {
+        height: 190px;
         width: 90%;
         margin-top: 2%;
         margin-bottom: 2%;
@@ -591,10 +598,6 @@ footer {
     .navigationbuttonbloc {
         width: 30%;
     }
-/*
-    .navbutton{
-        font-size: 0.8em;
-    }*/
 
     .button_filters{
         gap: 2%;
@@ -659,6 +662,11 @@ footer {
     .populaire{
         height: 145px;
         width: 32%;
+        padding: 0.5%;
+    }
+
+    .activite{
+        height: 267px;
     }
 
 }
