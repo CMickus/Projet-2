@@ -177,7 +177,7 @@ nav {
 
 .infoicon {
     border: #d9d9d9 solid;
-    height: 30px;
+    height: 35px;
     width: 35px;
     border-radius: 50%;
     display: flex;
@@ -417,6 +417,10 @@ footer {
         margin-bottom: 5%;
     }
 
+    .infoicon{
+        height: 30px;
+    }
+
     .headertext {
         margin-top: 2%;
     }
@@ -586,7 +590,6 @@ footer {
 
 @media screen and (min-width:768px) and (max-width: 991px) {
     body {
-        width: 100%;
         font-size: 0.8em;
     }
 
@@ -638,16 +641,9 @@ footer {
         height: 490px;
     }
 
-    .location{
-        height: 200px;
-    }
-
     .populaires {
         width: 100%;
-        padding-top: 4%;
-        padding-bottom: 4%;
-        padding-left: 4%;
-        padding-right: 4%;
+        padding: 4%;
     }
     
     .titrepopulaire{
@@ -663,9 +659,4 @@ footer {
         width: 32%;
         padding: 0.5%;
     }
-
-    .activite{
-        height: 267px;
-    }
-
 }
