@@ -169,7 +169,6 @@ nav {
 
 .infonombrelogement {
     display: flex;
-    flex-direction: row;
     align-items: center;
     gap: 1%;
     margin-top: 2%;
@@ -183,7 +182,6 @@ nav {
     border-radius: 50%;
     display: flex;
     justify-content: center;
-    align-content: center;
     color: #0065fc;
 }
 
@@ -333,7 +331,6 @@ nav {
 
 .activite {
     width: 23%;
-    height: 445px;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
@@ -359,8 +356,6 @@ nav {
 footer {
     display: flex;
     background-color: #d9d9d9;
-    flex-direction: row;
-    justify-content: flex-start;
     gap: 15%;
     padding-top: 3%;
     padding-left: 5%;
