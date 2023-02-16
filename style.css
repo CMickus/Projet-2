@@ -129,8 +129,6 @@ nav {
     cursor: pointer;
 }
 
-
-
 .button_filters {
     display: flex;
     align-items: center;
@@ -363,8 +361,10 @@ footer {
     background-color: #d9d9d9;
     flex-direction: row;
     justify-content: flex-start;
-    gap: 10%;
-    padding: 5%;
+    gap: 15%;
+    padding-top: 3%;
+    padding-left: 5%;
+    padding-bottom: 3%;
 }
 
 .listefooter {
@@ -577,6 +577,9 @@ footer {
         flex-wrap: wrap;
         flex-direction: column;
         width: 100%;
+        padding-top: 10%;
+        padding-left: 7%;
+        padding-bottom: 10%;
         gap: 30px;
     }
 
