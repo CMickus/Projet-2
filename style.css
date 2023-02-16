@@ -177,11 +177,12 @@ nav {
 
 .infoicon {
     border: #d9d9d9 solid;
-    height: 25px;
-    width: 25px;
+    height: 30px;
+    width: 35px;
     border-radius: 50%;
     display: flex;
     justify-content: center;
+    align-items: center;
     color: #0065fc;
 }
 
@@ -425,7 +426,6 @@ footer {
         width: 100%;
         padding-left: 2.5%;
         margin-top: 5%;
-        margin-bottom: 5%;
     }
 
     .researchbutton {
@@ -457,7 +457,6 @@ footer {
 
     .filters {
         height: 100%;
-        width: 100%;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-evenly;
@@ -570,8 +569,6 @@ footer {
     footer {
         display: flex;
         flex-wrap: wrap;
-        flex-direction: column;
-        width: 100%;
         padding-top: 10%;
         padding-left: 7%;
         padding-bottom: 10%;
@@ -584,8 +581,6 @@ footer {
 
     .listefooter {
         width: 100%;
-        display: flex;
-        flex-direction: column;
     }
 }
 
