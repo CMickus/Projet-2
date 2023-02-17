@@ -14,10 +14,6 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
-main {
-    max-width: 100%;
-}
-
 h2 {
     font-size: 1.3em;
 }
@@ -28,13 +24,6 @@ h3 {
 
 h4 {
     font-size: 1em;
-}
-
-ul {
-    list-style-type: none;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
 }
 
 a {
@@ -74,12 +63,12 @@ nav {
     cursor: default;
 }
 
-.hidden {
-    display: none;
-}
-
 .info_titre {
     margin-top: 2%;
+}
+
+.hidden {
+    display: none;
 }
 
 .searchform {
@@ -104,7 +93,7 @@ nav {
 .researchinput {
     height: 70%;
     width: 53%;
-    border: 1px solid #F2F2F2;
+    border: 1px solid #d9d9d9;
     padding-left: 3%;
 }
 
@@ -186,22 +175,6 @@ nav {
     color: #0065fc;
 }
 
-.hebergement {
-    display: flex;
-    justify-content: space-between;
-}
-
-.locationdeuxiemebloc {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 30%;
-}
-
-.textehebergement {
-    margin-left: 5%;
-}
-
 .star {
     margin-left: 5%;
     color: #0065fc;
@@ -211,11 +184,13 @@ nav {
     color: #d9d9d9;
 }
 
-.titrelocation {
+.hebergement {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 10%;
+    justify-content: space-between;
+}
+
+.textehebergement {
+    margin-left: 5%;
 }
 
 .locations {
@@ -227,11 +202,11 @@ nav {
     padding-top: 2%;
 }
 
-.bloclocation {
+.titrelocation {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    height: 80%;
+    flex-direction: column;
+    justify-content: center;
+    height: 10%;
 }
 
 .location {
@@ -242,6 +217,20 @@ nav {
     width: 30%;
     height: 40%;
     box-shadow: 5px 5px 5px 5px #c7c7c7;
+}
+
+.bloclocation {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 80%;
+}
+
+.locationdeuxiemebloc {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 30%;
 }
 
 .imagelocation {
@@ -316,6 +305,10 @@ nav {
     padding-bottom: 5%;
 }
 
+.activites{
+    margin-bottom: 5%;
+}
+
 .titreactivite {
     margin-top: 4%;
     margin-bottom: 2%;
@@ -324,10 +317,6 @@ nav {
 .blocactivite {
     display: flex;
     justify-content: space-between;
-}
-
-.activites{
-    margin-bottom: 5%;
 }
 
 .activite {
@@ -385,7 +374,6 @@ footer {
     nav {
         flex-direction: column;
         height: 150px;
-
     }
 
     .logo {
@@ -415,10 +403,6 @@ footer {
         padding-right: 5%;
         margin-top: 5%;
         margin-bottom: 5%;
-    }
-
-    .infoicon{
-        height: 30px;
     }
 
     .headertext {
@@ -476,7 +460,6 @@ footer {
     .filtreicon {
         margin-right: 2%;
         margin-left: 5%;
-
     }
 
     .filtretext {
@@ -489,10 +472,12 @@ footer {
         margin: 5%;
     }
 
+    .infoicon{
+        height: 30px;
+    }
+
     .hebergement {
-        height: fit-content;
         flex-direction: column-reverse;
-        justify-content: flex-start;
     }
 
     .locations {
